@@ -29,7 +29,7 @@ class LogKeeper extends Command
      */
     public function handle()
     {
-        $logger = \Log::getMonolog();
+        $logger = \Log::getLogger();
 
         try {
             $service = LogKeeperServiceFactory::buildFromLaravelConfig();

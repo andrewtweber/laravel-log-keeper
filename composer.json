@@ -9,12 +9,11 @@
         }
     ],
     "require": {
-
+        "league/flysystem-aws-s3-v3": "^1.0"
     },
     "require-dev" : {
 
     },
-
     "autoload": {
         "psr-4": {
             "MathiasGrimm\\LaravelLogKeeper\\": "src/"
